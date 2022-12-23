@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     .nav{
+        display: grid;
+        grid-template-columns: repeat(18,1fr);
+         /* grid-auto-rows: 80px;  */
+        grid-template-rows: repeat(7,80px);
+        gap: 15px;
+    }
+    .nav>div:nth-child(1){
+        background-color: red;
+        text-align: center;
+        border: 2px solid black;
+        color: white;
+    }
+    .nav>div:nth-child(15){
+        background-color:yellow;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(16){
+        background-color: green;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(17){
+        background-color: pink;
+        text-align: center;
+        border: 2px solid black;
+    }
+    .nav>div:nth-child(22){
+        background-color: greenyellow;
+        grid-column-start: 4;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        border: 2px solid black;
+    }
+    .nav>div:nth-child(26){
+        background-color: palevioletred;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(27){
+        background-color: green;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(28){
+        background-color: green;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(29){
+        background-color: green;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(30){
+        background-color: rgb(240, 83, 83);
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(31){
+        background-color: yellow;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(32){
+        background-color: green;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(33){
+        background-color: pink;
+        text-align: center;
+        border: 2px solid black;
+    }
+    .nav>div:nth-child(41){
+        background-color: orange;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(42){
+        background-color: palevioletred;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(43){
+        background-color: green;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(44){
+        background-color: green;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(45){
+        background-color: rgb(240, 83, 83);;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(46){
+        background-color: yellow;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(47){
+        background-color: green;
+         border: 2px solid black;
+    }
+    
+    .nav>div:nth-child(48){
+        background-color: pink;
+        text-align: center;
+        border: 2px solid black;
+    }
+    
+    .nav>div:nth-child(50){
+        background-color: blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(51){
+        background-color: blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(52){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(53){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(54){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(55){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(56){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(57){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(58){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(59){
+        background-color:  orange;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(60){
+        background-color:  palevioletred;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(61){
+        background-color:  palevioletred;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(62){
+        background-color:  green;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(63){
+        background-color:  rgb(240, 83, 83);;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(64){
+        background-color:  yellow;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(65){
+        background-color:  green;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(66){
+        background-color:  pink;
+        text-align: center;
+        border: 2px solid black;
+    }
+   
+    .nav>div:nth-child(68){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(69){
+        background-color:  blue;
+         border: 2px solid black;
+    }.nav>div:nth-child(70){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(71){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(72){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(73){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(74){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(75){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(76){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(77){
+        background-color:  orange;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(78){
+        background-color:  orange;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(79){
+        background-color:  palevioletred;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(80){
+        background-color:  palevioletred;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(81){
+        background-color:  rgb(240, 83, 83);
+         border: 2px solid black;
+    }
+    
+    .nav>div:nth-child(82){
+        background-color:  yellow;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(83){
+        background-color:  green;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(84){
+        background-color:  pink;
+        text-align: center;
+        border: 2px solid black;
+    }
+    .nav>div:nth-child(85){
+        background-color:  rgb(217, 190, 234);
+        border: 5px solid black;
+        
+    }
+    .nav>div:nth-child(86){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(87){
+        background-color:  blue;
+         border: 2px solid black;
+    }.nav>div:nth-child(88){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(89){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(90){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(91){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(92){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(93){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(94){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(95){
+        background-color:  orange;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(96){
+        background-color:  orange;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(97){
+        background-color:  orange;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(98){
+        background-color:  palevioletred;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(99){
+        background-color:  rgb(239, 88, 80);
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(100){
+        background-color:  yellow;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(101){
+        background-color:  green;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(102){
+        background-color:  pink;
+        text-align: center;
+        border: 2px solid black;
+    }
+    .nav>div:nth-child(103){
+        background-color:  rgb(217, 190, 234);
+        border: 5px solid black;
+        
+    }
+    .nav>div:nth-child(104){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(105){
+        background-color:  blue;
+         border: 2px solid black;
+    }.nav>div:nth-child(106){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(107){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(108){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(109){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(110){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(111){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(112){
+        background-color:  blue;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(113){
+        background-color:  brown;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(114){
+        background-color:  brown;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(115){
+        background-color:  brown;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(116){
+        background-color:  brown;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(117){
+        background-color:  brown;
+         border: 2px solid black;
+    }
+    .nav>div:nth-child(118){
+        background-color:  brown;
+         border: 2px solid black;
+    }
+     
+    .cont{
+       width: 50%;
+        display: grid;
+        grid-template-columns: repeat(14,1fr);
+        grid-template-rows: repeat(2,150);
+       margin: auto;
+       margin-top: 50px;
+    }
+     .cont>div:nth-child(1){
+        background-color: brown;
+        border: 2px solid black;
+     }
+     .cont>div:nth-child(2){
+        background-color: brown;
+         border: 2px solid black;
+     }
+
+     .cont>div:nth-child(3){
+        background-color: brown;
+         border: 2px solid black;
+     }
+     .cont>div:nth-child(4){
+        background-color: brown;
+         border: 2px solid black;
+     }
+     .cont>div:nth-child(5){
+        background-color: brown;
+         border: 2px solid black;
+     }
+    
+     .cont>div:nth-child(6){
+        background-color: brown;
+         border: 2px solid black;
+     }
+     .cont>div:nth-child(7){
+        background-color: brown;
+         border: 2px solid black;
+     }
+     .cont>div:nth-child(8){
+        background-color: brown;
+         border: 2px solid black;
+     }
+     .cont>div:nth-child(9){
+        background-color: brown;
+         border: 2px solid black;
+     } .cont>div:nth-child(10){
+        background-color: brown;
+         border: 2px solid black;
+     } .cont>div:nth-child(11){
+        background-color: brown;
+         border: 2px solid black;
+     } .cont>div:nth-child(12){
+        background-color: brown;
+         border: 2px solid black;
+     } .cont>div:nth-child(13){
+        background-color: brown;
+         border: 2px solid black;
+     } .cont>div:nth-child(14){
+        background-color: brown;
+         border: 2px solid black;
+     }
+     .cont>div:nth-child(15){
+        background-color: green;
+         border: 2px solid black;
+     }.cont>div:nth-child(16){
+        background-color: green;
+         border: 2px solid black;
+     }.cont>div:nth-child(17){
+        background-color: green;
+         border: 2px solid black;
+     }.cont>div:nth-child(18){
+        background-color: green;
+         border: 2px solid black;
+     }.cont>div:nth-child(19){
+        background-color: green;
+         border: 2px solid black;
+     }.cont>div:nth-child(20){
+        background-color: green;
+         border: 2px solid black;
+     }.cont>div:nth-child(21){
+        background-color: green;
+         border: 2px solid black;
+     }.cont>div:nth-child(22){
+        background-color: green;
+         border: 2px solid black;
+     }.cont>div:nth-child(23){
+        background-color: green;
+         border: 2px solid black;
+     }.cont>div:nth-child(24){
+        background-color: green;
+         border: 2px solid black;
+     }.cont>div:nth-child(25){
+        background-color: green;
+         border: 2px solid black;
+     }.cont>div:nth-child(26){
+        background-color: green;
+         border: 2px solid black;
+     }.cont>div:nth-child(27){
+        background-color: green;
+         border: 2px solid black;
+     }.cont>div:nth-child(28){
+        background-color: green;
+         border: 2px solid black;
+     }
+</style>
+<body>
+    <h1 style="font-size: 30px; text-align: center;margin: 80px;">THE PERIODIC TABLE OF ELEMENTS</h1>
+    <div class="nav">
+        <div><h1>H</h1></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div><h1>4</h1></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div><h1 style="text-align: end;margin-right: 25px;">14</h1>
+            <h1 style="font-size: 80px;margin-left: 20px;margin-bottom: 0px;">Si</h1>
+            <h2 style="margin-left: 20px; margin-top: 0px;">Silicon</h2>
+        </div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div> </div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div><h1>12</h1></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div><h1>20</h1></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div><h1>38</h1></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div><h1>56</h1></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        
+        <div><h1>88</h1></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+       
+    </div>
+    <div class="cont">
+        <div><h1>La</h1></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div><h1>Am</h1></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div><h1>No</h1></div>
+    </div>
+</body>
+</html>
