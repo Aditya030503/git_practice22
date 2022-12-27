@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .class{
+        border: 2px solid black;
+        margin: auto;
+        width: 30%;
+        /* height: 10%; */
+        /* margin-top: 20%; */
+    }
+    #output{
+         display: grid;
+         /* grid-template-columns: repeat(4,150px); */
+         grid-auto-rows: 100px;
+         /* width: 40%; */
+         /* border: 2px solid black; */
+        /* margin: auto; */
+       gap: 10px;
+       /* margin-top: 10%; */
+       padding: 10%
+    }
+    #output>div:nth-child(1){
+       /* background-color: blue; */
+       grid-column-start: 1;
+       grid-column-end: 5;
+       border: 2px solid black;
+       /* box-shadow: 5px 7px red; */
+    }
+    #output>button:nth-child(2){
+        background-color: blanchedalmond;
+        border: 2px solid black;
+         /* box-shadow: 5px 7px red; */
+    }
+    #output>button:nth-child(3){
+        background-color: blanchedalmond;
+        border: 2px solid black;
+         /* box-shadow: 5px 7px red; */
+    }
+    #output>button:nth-child(4){
+        background-color: blanchedalmond;
+        border: 2px solid black;
+         /* box-shadow: 5px 7px red; */
+    }
+    #output>button:nth-child(5){
+        background-color: blanchedalmond;
+        border: 2px solid black;
+         /* box-shadow: 5px 7px red; */
+    }
+    #output>button:nth-child(6){
+        background-color: blanchedalmond;
+        border: 2px solid black;
+         /* box-shadow: 5px 7px red; */
+    }
+    #output>button:nth-child(7){
+        background-color: blanchedalmond;
+        border: 2px solid black;
+         /* box-shadow: 5px 7px red; */
+    }
+    #output>button:nth-child(8){
+        background-color: blanchedalmond;
+        border: 2px solid black;
+         /* box-shadow: 5px 7px red; */
+    }
+    #output>button:nth-child(9){
+        background-color: blanchedalmond;
+        border: 2px solid black;
+         /* box-shadow: 5px 7px red; */
+    }
+    #output>button:nth-child(10){
+        background-color: blanchedalmond;
+        border: 2px solid black;
+         /* box-shadow: 5px 7px red; */
+    }
+</style>
+<body>
+  
+    <div class="class">
+    <div id="output">
+        <div></div>
+    <button class="number">1</button>
+    <button class="number">2</button>
+    <button class="number">3</button>
+    <button class="number">4</button>
+    <button class="number">5</button>
+    <button class="number">6</button>
+    <button class="number">7</button>
+    <button class="number">8</button>
+    <button class="number">9</button>
+    <button class="number">0</button>
+    <button id="plus">+</button>
+    <button id="minus">-</button>
+    <button id="multiply">*</button>
+    <button id="divide">/</button>
+    <button id="equal">=</button>
+</div></div>
+</body>
+</html>
