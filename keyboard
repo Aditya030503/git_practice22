@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .continer{
+        display: grid;
+        grid-template-columns: repeat(14,1fr);
+        grid-auto-rows: auto;
+        /* width: 70%; */
+        margin: auto;
+        /* margin-top: 20%; */
+        column-gap: 10px;
+        row-gap: 5px;
+      /* background-color: black; */
+    }
+    .continer button {
+  /* padding: 20px; */
+  border-radius: 5px;
+  background-color: rgb(0, 10, 0);
+  color: aqua;
+  /* font-size: 18px; */
+  /* width: 20%; */
+    }
+    #space{
+        grid-column-start: 5;
+        grid-column-end: 10;
+    }
+    #enter{
+        grid-column-start: 13;
+        grid-column-end: 15;
+    }
+    #shift{
+        grid-column-start: 13;
+        grid-column-end: 15;
+    }
+    .class{
+       
+        /* border: 2px solid red; */
+    margin: auto;
+    /* width: 80%; */
+    margin-top: 15%;
+    padding: 20px;
+    background-color: rgb(70, 69, 69);
+    border-radius: 9px;
+    }
+</style>
+<body>
+    <div class="class">
+    <div class="continer">
+        <button id="d">~</button><button id="a">1</button><button>2</button><button>3</button><button>4</button><button>5</button><button>6</button><button>7</button><button>8</button><button>9</button><button>0</button><button>-</button><button>=</button><button>backspace</button><button>tab</button><button>Q</button><button>W</button><button>E</button><button>R</button><button>T</button><button>Y</button><button>U</button><button>I</button><button>O</button><button>P</button><button>[</button><button>]</button><button>\</button><button>caps</button><button>A</button><button>S</button><button>D</button><button>F</button><button>G</button><button>H</button><button>J</button><button>K</button><button>L</button><button>;</button><button>'</button><button id="enter">ENTER</button><button>SHIFT</button><button>Z</button><button>X</button><button>C</button><button>V</button><button>B</button><button>N</button><button>M</button><button>,</button><button>.</button><button>/</button><button>}</button><button id="shift">SHIFT</button><button>CTRL</button><button>FN</button><button>WINDOW</button><button>ALT</button><button id="space">SPACE</button><button>ALT</button><button>CTRL</button><button>pg dn</button><button><</button><button>></button>
+    </div></div>
+</body>
+</html>
