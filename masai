@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+h1{
+    text-align: center;
+}
+    .class{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin: auto;
+        gap: 20px;
+        padding: 20px;
+        /* border: 2px solid black; */
+      width: 80%;
+        text-align: center;
+    }
+    .div{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin: auto;
+        width: 80%;
+    }
+    .div img{
+
+    }
+    .class div{
+        /* border: 2px solid white; */
+        /* width: 70%; */
+        /* box-shadow: 5px 3px 5px 4px rgb(49, 48, 48); */
+        border-radius: 8px ;
+        background-color: whitesmoke;
+    }
+    .class img{
+        width: 100%;
+        border-radius: 8px ;
+    }
+    .class .pic{
+        width: 100px;
+    }
+</style>
+<body>
+    <h1 class="h1">Board Member</h1>
+    <div class="div">
+        <div><img src="	https://www.masaischool.com/img/our-investors/india-q-borderless.svg" alt="" class="s"></div>
+        <div><img src="	https://www.masaischool.com/img/our-investors/india-q-borderless.svg" alt="" class="s"></div>
+        <div><img src="	https://www.masaischool.com/img/our-investors/india-q-borderless.svg" alt="" class="s"></div>
+    </div>
+    <h1>Strategic Investors</h1>
+    <div class="class">
+        
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFNHdv-xY0A6GuuzzudP6uiYoI9E94B8NOg&usqp=CAU" alt="pic"><h1>Mrityunjaya Karna</h1><p>Co-Founder & CEO</p><img class="pic" src="	https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg" alt="" srcset=""></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFNHdv-xY0A6GuuzzudP6uiYoI9E94B8NOg&usqp=CAU" alt="pic"><h1>Mrityunjaya Karna</h1><p>Co-Founder & CEO</p><img class="pic" src="	https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg" alt="" srcset=""></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFNHdv-xY0A6GuuzzudP6uiYoI9E94B8NOg&usqp=CAU" alt="pic"><h1>Mrityunjaya Karna</h1><p>Co-Founder & CEO</p><img class="pic" src="	https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg" alt="" srcset=""></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFNHdv-xY0A6GuuzzudP6uiYoI9E94B8NOg&usqp=CAU" alt="pic"><h1>Mrityunjaya Karna</h1><p>Co-Founder & CEO</p><img class="pic" src="	https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg" alt="" srcset=""></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFNHdv-xY0A6GuuzzudP6uiYoI9E94B8NOg&usqp=CAU" alt="pic"><h1>Mrityunjaya Karna</h1><p>Co-Founder & CEO</p><img class="pic" src="	https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg" alt="" srcset=""></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFNHdv-xY0A6GuuzzudP6uiYoI9E94B8NOg&usqp=CAU" alt="pic"><h1>Mrityunjaya Karna</h1><p>Co-Founder & CEO</p><img class="pic" src="	https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg" alt="" srcset=""></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFNHdv-xY0A6GuuzzudP6uiYoI9E94B8NOg&usqp=CAU" alt="pic"><h1>Mrityunjaya Karna</h1><p>Co-Founder & CEO</p><img class="pic" src="	https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg" alt="" srcset=""></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFNHdv-xY0A6GuuzzudP6uiYoI9E94B8NOg&usqp=CAU" alt="pic"><h1>Mrityunjaya Karna</h1><p>Co-Founder & CEO</p><img class="pic" src="	https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg" alt="" srcset=""></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFNHdv-xY0A6GuuzzudP6uiYoI9E94B8NOg&usqp=CAU" alt="pic"><h1>Mrityunjaya Karna</h1><p>Co-Founder & CEO</p><img class="pic" src="	https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg" alt="" srcset=""></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFNHdv-xY0A6GuuzzudP6uiYoI9E94B8NOg&usqp=CAU" alt="pic"><h1>Mrityunjaya Karna</h1><p>Co-Founder & CEO</p><img class="pic" src="	https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg" alt="" srcset=""></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFNHdv-xY0A6GuuzzudP6uiYoI9E94B8NOg&usqp=CAU" alt="pic"><h1>Mrityunjaya Karna</h1><p>Co-Founder & CEO</p><img class="pic" src="	https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg" alt="" srcset=""></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFNHdv-xY0A6GuuzzudP6uiYoI9E94B8NOg&usqp=CAU" alt="pic"><h1>Mrityunjaya Karna</h1><p>Co-Founder & CEO</p><img class="pic" src="	https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg" alt="" srcset=""></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFNHdv-xY0A6GuuzzudP6uiYoI9E94B8NOg&usqp=CAU" alt="pic"><h1>Mrityunjaya Karna</h1><p>Co-Founder & CEO</p><img class="pic" src="	https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg" alt="" srcset=""></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFNHdv-xY0A6GuuzzudP6uiYoI9E94B8NOg&usqp=CAU" alt="pic"><h1>Mrityunjaya Karna</h1><p>Co-Founder & CEO</p><img class="pic" src="	https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg" alt="" srcset=""></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFNHdv-xY0A6GuuzzudP6uiYoI9E94B8NOg&usqp=CAU" alt="pic"><h1>Mrityunjaya Karna</h1><p>Co-Founder & CEO</p><img class="pic" src="	https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg" alt="" srcset=""></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFNHdv-xY0A6GuuzzudP6uiYoI9E94B8NOg&usqp=CAU" alt="pic"><h1>Mrityunjaya Karna</h1><p>Co-Founder & CEO</p><img class="pic" src="	https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg" alt="" srcset=""></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFNHdv-xY0A6GuuzzudP6uiYoI9E94B8NOg&usqp=CAU" alt="pic"><h1>Mrityunjaya Karna</h1><p>Co-Founder & CEO</p><img class="pic" src="	https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg" alt="" srcset=""></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFNHdv-xY0A6GuuzzudP6uiYoI9E94B8NOg&usqp=CAU" alt="pic"><h1>Mrityunjaya Karna</h1><p>Co-Founder & CEO</p><img class="pic" src="	https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg" alt="" srcset=""></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFNHdv-xY0A6GuuzzudP6uiYoI9E94B8NOg&usqp=CAU" alt="pic"><h1>Mrityunjaya Karna</h1><p>Co-Founder & CEO</p><img class="pic" src="	https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg" alt="" srcset=""></div>
+    </div>
+</body>
+</html>
