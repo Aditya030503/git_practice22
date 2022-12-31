@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study lab</title>
+    <style>
+        #cont{
+            background-color: rgb(237, 245, 245);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 20px;
+        }
+        #cont div:nth-child(2){
+            width: 60%;
+            display: flex;
+           justify-content: space-around;
+           font-size: 150%;
+        }
+        div a{
+            color: black;
+            text-decoration: none;
+        }
+       div a:nth-child(1){
+        color: blue;
+       }
+       #cont div:nth-child(1){
+        width: 15%;
+        color: white;
+        text-align: center;
+        background-color: blueviolet;
+       }
+
+       .container{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+        }
+
+        .container >div{
+          width: 50%;
+ gap: 20px;
+        }
+        .pr{
+          display: flex;
+             /* width: 100%; */
+             /* border: 1px solid rgb(44, 42, 42); */
+           flex-wrap: wrap;  
+           margin: auto;
+           gap: 16px;
+        }
+        .pr > div{
+         /* width: 100%; */
+         /* border: 1px solid red; */
+         gap: 20px;
+         background-color: aquamarine;
+        width: 44%;
+        text-align: start;
+        padding: 2%;
+      border-radius: 10px;
+        }
+
+       
+       
+       .card img{
+        width: 10%;
+       }
+   .container>div:nth-child(1){
+    margin-top: 30px;
+   }
+   .img{
+    display: flex;
+   }
+  
+   .img img{
+    height: 100%;
+    width: 100%;
+   }
+
+    </style>
+</head>
+<body>
+    <div id="cont">
+        <div>
+            <h1>StudyLab</h1>
+        </div>
+        <div>
+            <a class="blue" href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Course</a>
+            <a href="#">Instructor</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+    <!-- <div id="container">
+       <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp3XDL30n9L32PVfK4iiNyi32xBkvWeQ8XOA&usqp=CAU" alt="">
+        <h3>Top Quality Content</h3>
+        <p>A small river named Duden flow by their place and supplies</p>
+       </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp3XDL30n9L32PVfK4iiNyi32xBkvWeQ8XOA&usqp=CAU" alt="">
+        <h3>Top Quality Content</h3>
+        <p>A small river named Duden flow by their place and supplies</p>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp3XDL30n9L32PVfK4iiNyi32xBkvWeQ8XOA&usqp=CAU" alt="">
+        <h3>Top Quality Content</h3>
+        <p>A small river named Duden flow by their place and supplies</p>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp3XDL30n9L32PVfK4iiNyi32xBkvWeQ8XOA&usqp=CAU" alt="">
+        <h3>Top Quality Content</h3>
+        <p>A small river named Duden flow by their place and supplies</p>
+      </div>
+    </div> -->
+   <div class="container">
+    <div>
+    <h5>WELCOME TO STUDYLAB</h5>
+    <h1>We Are Studylab An Online Learning Center</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  Inventore nobis voluptatum delectus voluptatem autem hic, accusamus, harum deleniti, obcaecati<br><br> quisquam aliquid aspernatur fugiat doloribus quibusdam voluptate quam assumenda id. Esse.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima ea velit repellendus eius magnam natus. Voluptatibus dolore vero odit?</p>
+    <div class="img">
+      <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF3D1BnY6Of7Ay5__hLZO_L23WTHmxOxoY7A&usqp=CAU"  alt=""></div>
+   <div class="h1"><h1>
+      Learn anything from studyLab Watch video
+  </h1></div> 
+</div>
+    </div>
+    <div class="pr">
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp3XDL30n9L32PVfK4iiNyi32xBkvWeQ8XOA&usqp=CAU" alt="">
+        <h3>Top Quality Content</h3>
+        <p>A small river named Duden flow by their place and supplies</p>
+       </div>
+       <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp3XDL30n9L32PVfK4iiNyi32xBkvWeQ8XOA&usqp=CAU" alt="">
+        <h3>Top Quality Content</h3>
+        <p>A small river named Duden flow by their place and supplies</p>
+       </div>
+       <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp3XDL30n9L32PVfK4iiNyi32xBkvWeQ8XOA&usqp=CAU" alt="">
+        <h3>Top Quality Content</h3>
+        <p>A small river named Duden flow by their place and supplies</p>
+       </div>
+       <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp3XDL30n9L32PVfK4iiNyi32xBkvWeQ8XOA&usqp=CAU" alt="">
+        <h3>Top Quality Content</h3>
+        <p>A small river named Duden flow by their place and supplies</p>
+       </div>
+    </div>
+   </div>
+   
+</body>
+</html>
