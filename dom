@@ -1,0 +1,72 @@
+<script>
+     let form = document.getElementById("form");
+     let tbody = document.querySelector("tbody")
+  //   form.addEventListener("submit", (e) =>{
+  //    e.preventDefault();
+  //    let obj = {
+  //       name: form.name.value,
+  //       employee_id: form.employee_id.value,
+  //       department: form.department.value,
+  //       experience: form.experience.value,
+  //       email:form.email.value,
+  //       mobile:form.mobile.value,
+  //    };
+  //    LSData.push(obj);
+  //    localStorage.setItem("jobLis", JSON.stringify(LSData))
+  //       })
+    
+  //     let LSData = JSON.parse(localStorage.getItem("jobLis"));
+  //  let tbody = document.getElementById("body")
+
+  //  if(LSData == null) LSData = [];
+   let data = [];
+   form.addEventListener("submit",(e) =>{
+    event.preventDefault();
+    let obj = {
+        name: form.name.value,
+        employee_id: form.employee_id.value,
+        department: form.department.value,
+        experience: form.experience.value,
+        email:form.email.value,
+        mobile:form.mobile.value,
+        
+     };
+     data.push(obj)
+      
+     tbody.innerHTML = null
+   
+   data.forEach((element,index) => {
+          let tr = document.createElement("tr");
+          
+          let td1= document.createElement("td")
+          td1.innerText = element.name;
+          let td2= document.createElement("td")
+          td2.innerText = element.employee_id;
+          let td3= document.createElement("td")
+          td3.innerText = element.department;
+          let td4= document.createElement("td")
+          td4.innerText = element.experience;
+          let td5= document.createElement("td")
+          td5.innerText = element.email;
+          let td6= document.createElement("td")
+           if(element.experience>5){
+            td6.innerText = "Senior"
+           }else if(element.experience<5 && element.experience>2){
+            td6.innerText = "Junior"
+           }else{
+            td6.innerText = "Fresher"
+           }
+          let td7= document.createElement("td")
+          td7.innerText = element.mobile;
+          let td8= document.createElement("td")
+          td8.innerText = "delete";
+          td8.style.backgroundColor = "red"
+          td8.addEventListener("click" , (e) =>{
+            tr.innerHTML=null
+          
+          })
+          tr.append(td1,td2,td3,td4,td5,td7,td6,td8)
+          tbody.append(tr)
+     });
+  })
+  </script>
